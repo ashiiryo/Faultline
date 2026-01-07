@@ -1,0 +1,25 @@
+{
+  "name": "faultline",
+  "version": "0.1.0",
+  "description": "Minimal static analysis tool that extracts runtime assumptions from a single JavaScript function.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "example": "node index.js examples/getUsername.js",
+    "start-api": "node server/index.js",
+    "test": "node --experimental-vm-modules ./node_modules/.bin/jest --runInBand",
+    "test:coverage": "node --experimental-vm-modules ./node_modules/.bin/jest --coverage --runInBand"
+  },
+  "keywords": ["static-analysis", "ast", "javascript"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/parser": "^7.22.11",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

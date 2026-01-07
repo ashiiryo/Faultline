@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #181a1f;
+  --panel: #1e1e1e;
+  --accent: #2a9d8f;
+  --text: #e6eef0;
+}
+
+body { background: linear-gradient(180deg, var(--bg) 0%, #1f2228 100%); }
+
+/* Small helper for moderation */
+.issue-high { border-left: 4px solid rgba(220,38,38,0.9); }
+.issue-medium { border-left: 4px solid rgba(234,179,8,0.95); }
+.issue-low { border-left: 4px solid rgba(99,102,241,0.9); }
+
+.line-highlight-selected { background: rgba(42,157,143,0.10) !important; border-left: 3px solid rgba(42,157,143,0.9) !important }

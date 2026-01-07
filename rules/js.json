@@ -1,0 +1,37 @@
+[
+  {
+    "language": "js",
+    "trigger": "toUpperCase",
+    "receiverType": "string",
+    "assumptions": ["{receiver} is a string"],
+    "confidence": "medium"
+  },
+  {
+    "language": "js",
+    "trigger": "map",
+    "receiverType": "array",
+    "assumptions": ["{receiver} is an array"],
+    "confidence": "high"
+  },
+  {
+    "language": "js",
+    "trigger": "then",
+    "receiverType": "Promise",
+    "assumptions": ["{receiver} is a Promise"],
+    "confidence": "high"
+  },
+  {
+    "language": "js",
+    "trigger": "getFullYear",
+    "receiverType": "Date",
+    "assumptions": ["{receiver} is a Date"],
+    "confidence": "high"
+  },
+  {
+    "language": "js",
+    "trigger": "test",
+    "receiverType": "RegExp",
+    "assumptions": ["{receiver} is a RegExp"],
+    "confidence": "high"
+  }
+]

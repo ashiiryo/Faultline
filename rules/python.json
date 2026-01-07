@@ -1,0 +1,23 @@
+[
+  {
+    "language": "python",
+    "trigger": "upper",
+    "receiverType": "string",
+    "assumptions": ["{receiver} is a string"],
+    "confidence": "medium"
+  },
+  {
+    "language": "python",
+    "trigger": "get",
+    "receiverType": "dict",
+    "assumptions": ["{receiver} is a dict", "{receiver}.get may return undefined (key may be absent)"],
+    "confidence": "high"
+  },
+  {
+    "language": "python",
+    "trigger": "append",
+    "receiverType": "list",
+    "assumptions": ["{receiver} is a list"],
+    "confidence": "high"
+  }
+]
