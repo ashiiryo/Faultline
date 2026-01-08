@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="assets/logo.png" alt="Faultline Logo" width="120"/>
-
 # ⚡ Faultline
 
 ### Find hidden assumptions in code — before they break production.
@@ -128,9 +126,7 @@ All analyzers are fully tested with deterministic snapshots.
 MIT License © 2026
 Built with intent, not noise.
 
-<div align="center">
 
 ## ⚡ Faultline —
 Because assumptions are where bugs are born.
 
-</div> ```
